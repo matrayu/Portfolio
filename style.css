@@ -14,13 +14,14 @@
   main {
       padding-left: 5%;
       padding-right: 5%;
+      margin: auto;
   }
   
   nav,
   footer {
     padding: 1% 0;
     background-color: #aaa;
-    font-size: 3vw;
+    font-size: 30px;
   }
 
   footer {
@@ -28,6 +29,9 @@
   }
   
   nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -35,11 +39,21 @@
     z-index: 10;
   }
 
-  ul {
-     list-style: none;
-     margin: 0;
-     padding: 0; 
+  nav a {
+    display: none;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    line-height: 72px;
   }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+ }
+  
 
   .nav-li>li {
       display: none;
@@ -54,6 +68,7 @@
   
   header {
     padding: 20% 0;
+    background: #bbb;
   }
 
   .me-img {
@@ -73,7 +88,7 @@
     text-align: right;
   }
 
-  .clearfix {
+  .hero {
       position: relative;
   }
 
@@ -120,9 +135,10 @@
     background: white;
     border: none;
     padding: 12px 16px;
-    font-size: 4vw;
     cursor: pointer;
     float: left;
+    font-size: 25px;
+    padding: 6px 12px;
   }
   
 .btn:hover {
@@ -157,4 +173,25 @@ h2 {
     width: 25vw;
     padding: 0px;
     margin: 52px 20px 52px 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+    nav {
+        justify-content: flex-end;
+    }
+    nav a {
+        display: inline-flex;
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+        text-align: center;
+        line-height: 10px;
+        font-size: 30px;
+    }
+    nav button {
+        display: none;
+    }
 }

@@ -30,36 +30,27 @@
 
 <body>
     <nav role="nav-bar">
-        <div class="navbar-header">
-            <button class="btn"><i class="fa fa-bars"></i></button>
-            <ul class="nav-li">
-                <li>Portfolio</li>
-                <li>Bio</li>
-                <li>Contact</li>
-            </ul>
+        <button class="btn"><i class="fa fa-bars"></i></button>
+        <div>
+        <a href="#">Portfolio</a>
+        <a href="#">Bio</a>
+        <a href="#">Contact</a>
         </div>
     </nav>
     <main role="main">
         <header role="banner">
-            <div class="clearfix">
+            <div class="hero">
                 <img class="me-img" src="images/me-shadow.png" alt="Matthew Friedberg Image">
                 <div class="hero-li">
                     <ul>
-                        <li>Diligent.</li>
-                        <li>Inqusitive.</li>
-                        <li>Meticulous.</li>
-                        <li>Resourceful.</li>
+                        <li class=soft-skills>Diligent.</li>
+                        <li class=soft-skills>Inqusitive.</li>
+                        <li class=soft-skills>Meticulous.</li>
+                        <li class=soft-skills>Resourceful.</li>
                     </ul>
                 </div>
-                <h1>Hello, I'm Matthew. <br>You can call me a full-stack developer, but I'm many other things.</h1>
-            </div>
-
-            <div class="page-indicator">
-                <ul>
-                    <li>.</li>
-                    <li>.</li>
-                    <li>.</li>
-                </ul>
+                <h1>Hello, I'm Matthew. <br>You can call me a <span class="cap-text">full-stack developer</span>, but
+                    I'm many other things.</h1>
             </div>
         </header>
 
@@ -76,9 +67,9 @@
             <h2>Portfolio</h2>
             <img id="b2f-image" src="images/B2F_image_mobile.png" alt="Back to the Future Quiz Screnshot">
             <div class="demo-links">
-            <a href="">Demo</a>
-             | 
-            <a href="">Github</a>
+                <a href="">Demo</a>
+                |
+                <a href="">Github</a>
             </div>
             <p>Built using HTML, CSS, Javascript, and JQuery. Find out just how knowledgeable you are in the
                 Back to the Future movie franchise.</p>
@@ -91,7 +82,9 @@
         </section>
 
     </main>
-    <footer role="content-info">Copyright 2019</footer>
+    <footer>
+        <p>&copy; 2019 - McF</p>
+    </footer>
 </body>
 
 </html>
