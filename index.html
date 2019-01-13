@@ -29,43 +29,40 @@
 </head>
 
 <body>
-    <nav role="nav-bar">
+    <nav>
         <button class="btn"><i class="fa fa-bars"></i></button>
-        <div>
-        <a href="#">Portfolio</a>
-        <a href="#">Bio</a>
-        <a href="#">Contact</a>
-        </div>
+        <ul>
+            <li><a href="#">Bio</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
     </nav>
-    <main role="main">
-        <header role="banner">
-            <div class="hero">
-                <img class="me-img" src="images/me-shadow.png" alt="Matthew Friedberg Image">
-                <div class="hero-li">
-                    <ul>
-                        <li class=soft-skills>Diligent.</li>
-                        <li class=soft-skills>Inqusitive.</li>
-                        <li class=soft-skills>Meticulous.</li>
-                        <li class=soft-skills>Resourceful.</li>
-                    </ul>
-                </div>
-                <h1>Hello, I'm Matthew. <br>You can call me a <span class="cap-text">full-stack developer</span>, but
-                    I'm many other things.</h1>
-            </div>
-        </header>
 
+    <header>
+        <h1>Hello, I'm Matthew, <br>and this is my portfolio</h1>
+        <div class="avatar">
+            <img src="https://matrayu.github.io/Portfolio_v1/images/me-shadow.png" alt="matt as a yahoo avatar" />
+            <ul class="attributes">
+                <li>Diligent.</li>
+                <li>Inquisitive.</li>
+                <li>Meticulous.</li>
+                <li>Resourceful.</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
         <section class="bio">
             <h2>Bio</h2>
             <p>Having spent 20 years in entertainment, I have a passion for the arts. I’m a highly educated front-end
                 web developer with an engineering degree in sound and vast amounts of experience in video and design.
-                Plus, my wife tells me I’m a pretty good cook. <br>When I’m not behind the computer, you can find me
-                binge-watching Netflix Documentaries, flying my drone, playing basketball, or cooking up a feast.
-            </p>
+                Plus, my wife tells me I’m a pretty good cook. <br><br>When I’m not behind the computer, you can find
+                me binge-watching Netflix Documentaries, flying my drone, playing basketball, or cooking up a feast.</p>
         </section>
 
         <section class="projects">
             <h2>Portfolio</h2>
-            <img id="b2f-image" src="images/B2F_image_mobile.png" alt="Back to the Future Quiz Screnshot">
+            <img id="b2f-image" src="https://matrayu.github.io/Portfolio_v1/images/B2F_image_web.png" alt="Back to the Future Quiz Screnshot">
             <div class="demo-links">
                 <a href="">Demo</a>
                 |
@@ -77,11 +74,15 @@
 
         <section class="contact">
             <h2>Contact</h2>
-            <img src="images/iconfinder_mail-square-shadow-social-media_765113.png" alt="Email Me">
-            <img src="images/iconfinder_linkedin-square-shadow-social-media_765114.png" alt="Get in touch on LinkedIn">
+            <div>
+                <img src="https://matrayu.github.io/Portfolio_v1/images/iconfinder_mail-square-shadow-social-media_765113.png"
+                    alt="Email Me">
+                <img src="https://matrayu.github.io/Portfolio_v1/images/iconfinder_linkedin-square-shadow-social-media_765114.png"
+                    alt="Get in touch on LinkedIn">
+            </div>
         </section>
-
     </main>
+
     <footer>
         <p>&copy; 2019 - McF</p>
     </footer>
