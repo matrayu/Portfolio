@@ -2,83 +2,69 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio of Matthew Friedberg</title>
-</head>
-
-<body>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-    <script type="text/javascript" src="index.js"></script>
-</body>
-
-</html>
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
     <title>Portfolio of Matthew Friedberg</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,900|Source+Sans+Pro:700" rel="stylesheet">
 </head>
 
 <body>
     <nav>
-        <button class="btn"><i class="fa fa-bars"></i></button>
-        <ul>
-            <li><a href="#">Bio</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+        <!--<button class="button content isOpen"><i class="fa fa-bars"></i></button>-->
+        <ul class="uppercase">
+            <li><a href="#bio">Bio</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <header>
-        <h1>Hello, I'm Matthew, <br>and this is my portfolio</h1>
+        <h1>Hello, I'm Matthew.<br>I'm a Full-Stack Developer,<br>and so much more...</h1>
         <div class="avatar">
-            <img src="https://matrayu.github.io/Portfolio_v1/images/me-shadow.png" alt="matt as a yahoo avatar" />
-            <ul class="attributes">
-                <li>Diligent.</li>
-                <li>Inquisitive.</li>
-                <li>Meticulous.</li>
-                <li>Resourceful.</li>
+            <img src="images/me-shadow.png" alt="matthew as an avatar" />
+            <ul class="attributes uppercase">
+                <li class="uppercase">Diligent.</li>
+                <li class="uppercase">Inquisitive.</li>
+                <li class="uppercase">Meticulous.</li>
+                <li class="uppercase">Resourceful.</li>
             </ul>
         </div>
     </header>
 
     <main>
+        <div id="bio"></div>
         <section class="bio">
-            <h2>Bio</h2>
+            <h2 class="uppercase text-shadow">Bio</h2>
             <p>Having spent 20 years in entertainment, I have a passion for the arts. I’m a highly educated front-end
                 web developer with an engineering degree in sound and vast amounts of experience in video and design.
                 Plus, my wife tells me I’m a pretty good cook. <br><br>When I’m not behind the computer, you can find
                 me binge-watching Netflix Documentaries, flying my drone, playing basketball, or cooking up a feast.</p>
         </section>
-
+        <div id="projects"></div>
         <section class="projects">
-            <h2>Portfolio</h2>
-            <img id="b2f-image" src="https://matrayu.github.io/Portfolio_v1/images/B2F_image_web.png" alt="Back to the Future Quiz Screnshot">
+            <h2 class="uppercase text-shadow">Portfolio</h2>
+            <img src="https://matrayu.github.io/Portfolio_v1/images/B2F_image_web.png" alt="Back to the Future Quiz Screnshot">
             <div class="demo-links">
-                <a href="">Demo</a>
+                <a href="https://matrayu.github.io/B2F_Quiz_App/" target="_blank">Demo</a>
                 |
-                <a href="">Github</a>
+                <a href="https://github.com/matrayu/B2F_Quiz_App" target="_blank">Github</a>
             </div>
-            <p>Built using HTML, CSS, Javascript, and JQuery. Find out just how knowledgeable you are in the
+            <p>Built using HTML, CSS, Javascript, and JQuery. <br>Find out just how knowledgeable you are in the
                 Back to the Future movie franchise.</p>
         </section>
-
-        <section class="contact">
-            <h2>Contact</h2>
+        <div id="contact"></div>
+        <section class="contact" id="contact">
+            <h2 class="uppercase text-shadow">Contact</h2>
             <div>
-                <img src="https://matrayu.github.io/Portfolio_v1/images/iconfinder_mail-square-shadow-social-media_765113.png"
-                    alt="Email Me">
-                <img src="https://matrayu.github.io/Portfolio_v1/images/iconfinder_linkedin-square-shadow-social-media_765114.png"
-                    alt="Get in touch on LinkedIn">
+                <a href="mailto:matt.friedberg@gmail.com" target="_top">
+                        <img src="images/icon-email.png"
+                        alt="Email Me">
+                </a>
+                <a href="https://github.com/matrayu" target="_blank">
+                        <img src="images/icon-github.png"
+                        alt="Email Me">
+                </a>
             </div>
         </section>
     </main>
