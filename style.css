@@ -85,6 +85,7 @@
   
   section {
     /*border: 2px solid black;*/
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
