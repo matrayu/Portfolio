@@ -177,7 +177,6 @@ Black #000000
   
   @media screen and (max-width: 700px){
     nav {
-        height: 40px;
         justify-content: space-evenly;
         min-width: 340px;
     }
