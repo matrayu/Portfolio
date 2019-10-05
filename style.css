@@ -43,137 +43,161 @@ Black #000000
     color: #7AC984;
 }
 
-  a:link, a:visited{
-      color: #1D628A;
-  }
-  a:hover {
-      color: #000000;
-  }
+a:link, a:visited{
+    color: #1D628A;
+}
 
-  .text-shadow { 
-      text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
-      0px -5px 35px rgba(255,255,255,0.3);
-  }
-  
-  nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    position: fixed;
-    background: #000000;
-    width: 100%;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    margin: 0 0 10px 0;
-    height: 40px;
-    padding: 0 25px;
-  }
-  
-  nav button {
-    visibility: hidden;
-  }
-  
-  nav ul>li {
-    text-align: right;
-    list-style: none;
-    display: inline;
-  }
+a:hover {
+    color: #000000;
+}
 
-  a {
-    text-decoration: none;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 2%;
-    margin-left: 2%;
-    margin-top: 42px;
-  }
-  
-  
-  header h1 {
-    flex: 3;
-    text-align: center;
-    margin: auto;
-    padding-left: 100px;
-  }
-  
-  header img {
-    height: 250px;
-  }
-  
-  header .avatar {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 30px;
-  }
-  
-  .avatar ul {
-    font-family: 'Montserrat', sans-serif;
-    text-align: right;
-    position: relative;
-    left: -150px;
-    list-style: none;
-    padding: 0;
-    font-size: 20px;
-    line-height: 50px;
-    font-weight: bold; 
-  }
-  
-  section h2{
-    text-align: center;
-    padding-bottom: 40px;
-    padding-top: 20px;
-  }
-  
-  section {
-    /*border: 2px solid black;*/
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
+.text-shadow { 
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+    0px -5px 35px rgba(255,255,255,0.3);
+}
 
-  .projects img {
-      border: 3px solid #000000;
-  }
-  
-  section p, .demo-links {
-    font-size: 16px;
-    line-height: 2;
-    padding: 0 18% 0 18%;
-  }
-  
-  .projects img {
-    width: 50%;
-    margin: auto;
-  }
-  
-  .demo-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .contact div {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 50px;
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-  
-  .contact img {
-    width: 80px;
-    height: 80px;
-  }
-  
-  footer {
-    text-align: center;
-  }
- 
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  background: #000000;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  margin: 0 0 10px 0;
+  height: 40px;
+  padding: 0 25px;
+}
+
+nav button {
+  visibility: hidden;
+}
+
+nav ul>li {
+  text-align: right;
+  list-style: none;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 42px;
+}
+
+
+header h1 {
+  flex: 3;
+  text-align: left;
+  margin: auto;
+  padding-left: 100px;
+}
+
+header img {
+  height: 250px;
+}
+
+header .avatar {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+
+.avatar ul {
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+  position: relative;
+  left: -150px;
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: bold; 
+}
+
+section h2{
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+section {
+  /*border: 2px solid black;*/
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.projects img {
+    border: 3px solid #000000;
+}
+
+section p, .demo-links {
+  font-size: 16px;
+  line-height: 2;
+  padding: 0 18% 0 18%;
+}
+
+.projects img {
+  width: 50%;
+  margin: auto;
+}
+
+.demo-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact div {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.contact img {
+  width: 80px;
+  height: 80px;
+}
+
+footer {
+  text-align: center;
+}
+
+.bf_image, .ls_image, .na_image {
+  margin: 0 auto;
+  width: 539px;
+  height: 314px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bf_image {
+  background-image: url('/images/B2F_image_web_400.png');
+}
+
+.na_image {
+  background-image: url('/images/Numerology_image_web_2_400.png');
+}
+
+.ls_image {
+  background-image: url('/images/Lakeshow_image_web_400.png');
+}
+
+
+
+
   
   @media screen and (max-width: 700px){
     nav {
@@ -222,12 +246,27 @@ Black #000000
     line-height: 2;
     padding: 0 4% 0 4%;
     }
-    .projects img {
-      content:url("https://matrayu.github.io/Portfolio_v1/images/B2F_image_mobile.png");
-    }
+    
     .contact div {
     padding-bottom: 50px;
     padding-right: 30px;
     padding-left: 30px;
+    }
+
+    .bf_image, .ls_image, .na_image {
+      width: 286px;
+      height: 430px;
+    }
+
+    .bf_image {
+      background-image: url('/images/B2F_image_mobile_800.png');
+    }
+    
+    .na_image {
+      background-image: url('/images/Numerology_image_mobile_800.png');
+    }
+    
+    .ls_image {
+      background-image: url('/images/Lakeshow_image_mobile_800.png');
     }
   }

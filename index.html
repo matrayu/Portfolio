@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700,900|Source+Sans+Pro:700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e0536ad1d3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -35,34 +36,71 @@
         <div id="bio"></div>
         <section class="bio">
             <h2 class="uppercase text-shadow">Bio</h2>
-            <p>Having spent 20 years in entertainment, I have a passion for the arts. I’m a highly educated front-end
-                web developer with an engineering degree in sound and vast amounts of experience in video and design.
-                Plus, my wife tells me I’m a pretty good cook. <br><br>When I’m not behind the computer, you can find
-                me binge-watching Netflix Documentaries, flying my drone, playing basketball, or cooking up a feast.</p>
+            <p>Having spent 20 years in entertainment, I have a passion for the arts and technology. I’m a highly educated full-stack
+                web developer, well versed in Javascript, React, Node, SQL, and so much more.  With an engineering degree in sound 
+                and vast amounts of experience in video, production, and design, I come packed with a wealth of knowledge and a whole 
+                host of skills. Plus, my wife tells me I’m a pretty good cook. <br><br>When I’m not behind the computer, you can find
+                me binge-watching Netflix Documentaries, flying my drone, playing basketball, or cooking up a feast.
+            </p>
+            <hr/>
         </section>
-        <div id="projects"></div>
+
+
         <section class="projects">
             <h2 class="uppercase text-shadow">Portfolio</h2>
-            <img src="images/B2F_image_web.png" alt="Back to the Future Quiz Screnshot">
-            <div class="demo-links">
-                <a href="https://matrayu.github.io/B2F_Quiz_App/" target="_blank">Demo</a>
-                |
-                <a href="https://github.com/matrayu/B2F_Quiz_App" target="_blank">Github</a>
+
+            <div class="project">
+                <div class='bf_image' role="img" aria-label="Back To The Future Quiz Screenshot"></div>
+                <div class="demo-links">
+                    <a href="https://matrayu.github.io/B2F_Quiz_App/" target="_blank">Live Version</a>
+                    |
+                    <a href="https://github.com/matrayu/B2F_Quiz_App" target="_blank">Github</a>
+                </div>
+                <p>Find out just how knowledgeable you are in the Back to the Future movie franchise. This app was built using HTML, CSS, Javascript, and JQuery.</p>
             </div>
-            <p>Find out just how knowledgeable you are in the Back to the Future movie franchise. This app was built using HTML, CSS, Javascript, and JQuery.</p>
+
+            <div class="project">
+                <div class='na_image' role="img" aria-label="Numerology App Screenshot"></div>
+                <div class="demo-links">
+                    <a href="https://simple-numerology-app.now.sh/" target="_blank">Live Version</a>
+                    |
+                    <a href="https://github.com/matrayu/numerology-client " target="_blank">Github</a>
+                </div>
+                <p>The Simple Numerology App allows users to quickly obtain their numerology numbers and data behind those numbers. This app was built using HTML, CSS, Javascript, React, Postgres, Node and Express.</p>
+            </div>
+
+            <div class="project">
+                <div class='ls_image' role="img" aria-label="Lakeshow Tickets Screenshot"></div>
+                <div class="demo-links">
+                    <a href="https://lakeshowtix.now.sh" target="_blank">Live Version</a>
+                    |
+                    <a href="https://github.com/matrayu/lakeshow-app" target="_blank">Github</a>
+                </div>
+                <p>Lakeshow Tickets is a secondary market ticket portal to buy & sell LA Lakers season tickets without middle man markups. This app was built using HTML, CSS, Javascript, React, Postgres, Node and Express.</p>
+            </div>
+            <hr/>
         </section>
         <div id="contact"></div>
         <section class="contact" id="contact">
             <h2 class="uppercase text-shadow">Contact</h2>
             <div>
-                <a href="mailto:matt.friedberg@gmail.com" target="_top">
-                        <img src="images/icon-email.png"
-                        alt="Email Me">
-                </a>
-                <a href="https://github.com/matrayu" target="_blank">
-                        <img src="images/icon-github.png"
-                        alt="Email Me">
-                </a>
+                <span style="font-size: 82px;">
+                    <a href="mailto:matt.friedberg@gmail.com" target="_blank">
+                            <i class="fas fa-envelope-square" role="img" aria-label="Email Icon"></i>
+                    </a>
+                </span>
+
+                <span style="font-size: 82px;">
+                    <a href="https://github.com/matrayu" target="_blank">
+                        <i class="fab fa-github-square" role="img" aria-label="Github Icon"></i>
+                    </a>
+                </span>
+                
+                <span style="font-size: 82px;">
+                    <a href="https://www.linkedin.com/in/99percent/" target="_blank">
+                        <i class="fab fa-linkedin" role="img" aria-label="LinkedIn Icon"></i>
+                    </a>
+                </span>
             </div>
         </section>
     </main>
