@@ -184,15 +184,15 @@ footer {
 }
 
 .bf_image {
-  background-image: url('/images/B2F_image_web_400.png');
+  background-image: url('../Portfolio/images/B2F_image_web_400.png');
 }
 
 .na_image {
-  background-image: url('/images/Numerology_image_web_2_400.png');
+  background-image: url('../Portfolio/Numerology_image_web_2_400.png');
 }
 
 .ls_image {
-  background-image: url('/images/Lakeshow_image_web_400.png');
+  background-image: url('../Portfolio/Lakeshow_image_web_400.png');
 }
 
 
@@ -259,14 +259,14 @@ footer {
     }
 
     .bf_image {
-      background-image: url('/images/B2F_image_mobile_800.png');
+      background-image: url('../Portfolio/images/B2F_image_mobile_800.png');
     }
     
     .na_image {
-      background-image: url('/images/Numerology_image_mobile_800.png');
+      background-image: url('../Portfolio/images/Numerology_image_mobile_800.png');
     }
     
     .ls_image {
-      background-image: url('/images/Lakeshow_image_mobile_800.png');
+      background-image: url('../Portfolio/images/Lakeshow_image_mobile_800.png');
     }
   }
