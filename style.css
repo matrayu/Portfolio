@@ -195,6 +195,12 @@ footer {
   background-image: url('https://matrayu.github.io/Portfolio/images/Lakeshow_image_web_400.png');
 }
 
+.sr-only {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
 
 
 
