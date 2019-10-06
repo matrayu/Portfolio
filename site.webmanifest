@@ -1,6 +1,7 @@
 {
     "name": "Matthews Portfolio",
     "short_name": "Portfolio",
+    "start_url": "/Portfolio",
     "icons": [
         {
             "src": "/Portfolio/android-chrome-192x192.png",
